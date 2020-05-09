@@ -77,7 +77,7 @@ end
 
 p "Welcome to the game!  To exit at any time, type 'exit'"
 p "You're going to use the characters array to find information about Kaladin Stormblessed."
-question("Let's start.  Locate Kaladin in the characters array.", "characters[0]", characters[0])
+question("Let's start.  Locate Kaladin's name in the characters array.", "characters[0][:name]", characters[0][:name])
 question("Locate Kaladin's occupation.", "characters[0][:occupation]", characters[0][:occupation])
 question("Locate Kaladin's eye_colour.", "characters[0][:appearance][:eye_colour]", characters[0][:appearance][:eye_colour])
 question("Locate the name of Kaladin's surgebinding ability.", "characters[0][:abilities][0][:surgebinding]", characters[0][:abilities][0][:surgebinding])
